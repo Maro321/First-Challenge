@@ -1,0 +1,213 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(30, 54%, 90%);
+}
+
+.big {
+    background-color: whitesmoke;
+    width: fit-content;
+    margin: 20px auto;
+}
+
+.img {
+    width: 300px;
+    height: 350px;
+    margin: 25px auto;
+    border: 5px solid white;
+    border-radius: 30%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 15px;
+
+}
+img {
+    border-radius: 10%;
+}
+
+.big-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 25px auto;
+    position: relative;
+    top: 10px;
+    bottom: 20px;
+    left:50px;
+    color: hsl(24, 5%, 18%);
+}
+
+.prep li   {
+    text-wrap: nowrap;
+    margin: 10px auto;
+    font-size: 25px;
+    white-space: nowrap;
+}
+
+.easy {
+    margin: 15px auto;
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    width: 900px;
+    border-radius: 3%;
+    position: relative;
+    right: 80px;
+}
+
+
+
+h3 { font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+      font-size: 30px;
+    position: relative;
+    left: 10px;
+    color: hsl(14, 45%, 36%);
+
+}
+.Preparation {
+    background-color:hsl(323, 100%, 96%) ;
+    width: 800px;
+    border-radius: 5% ;
+    position: relative;
+    left: 200px;
+}
+
+.Preparation li::marker {
+    color: hsl(332, 51%, 32%);
+}
+
+.font {
+    font-weight: bold;
+}
+
+.gre {
+    color:hsl(14, 45%, 36%);
+    font-size: 25px;
+    margin: 10px auto;
+    position: relative;
+    left: 20px;
+}
+
+.ingr li {
+ margin: 10px auto;
+ font-size: 15px;
+}
+
+.ingr li::marker {
+    color: brown;
+    
+}
+
+.inst {
+    color: hsl(14, 45%, 36%);
+    font-size: 25px;
+    margin: 10px auto;
+    position: relative;
+    left: 20px;
+}
+
+.int {
+    list-style-type: numbers;
+    font-size: 15px;
+    text-wrap: nowrap;
+    font-family:Arial, Helvetica, sans-serif ;
+
+}
+
+.int li  {
+    text-wrap: nowrap;
+    margin: 10px auto;
+
+}
+.int li::marker  {
+ color: hsl(14, 45%, 36%);
+ font-weight: bold;
+ word-spacing: 10px;
+}
+
+
+.tab {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px auto;
+    font-size: 25px;
+}
+
+.Nut {
+    color: hsl(14, 45%, 36%);
+    font-size: 25px;
+    margin: 10px auto;
+    position: relative;
+    left: 20px;
+}
+
+.kcal {
+    word-spacing: 200px;
+    font-size: 25px;
+    margin: 10px auto;
+    position: relative;
+    left: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cal {
+    color: hsl(14, 45%, 36%);
+    white-space: 5px;
+    word-spacing: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+span {
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:375px) and (max-width:1439px) {
+
+}
+
+@media (min-width:1440px) {
+
+}
